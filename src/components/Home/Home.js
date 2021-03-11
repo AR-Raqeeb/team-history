@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import React from 'react';
 import Team from '../Team/Team';
-import TeamDetails from '../TeamDetails/TeamDetails';
 import Header from '../Header/Header';
 const Home = () => {
     const [teams, setTeams] = useState([]);

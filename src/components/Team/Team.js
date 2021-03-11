@@ -1,13 +1,11 @@
-import Button from 'react-bootstrap/Button';
+
 import React from 'react';
-import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Team = (props) => {
     const {strTeam, strTeamBadge, strSport, idTeam} = props.team;
-    const teamImageStyle = {height:'153px', width:"151px", borderRadius:"10px"}
 
     return (
         <div className= 'col-md-4 container'>
